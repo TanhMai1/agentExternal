@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dummy Website</title>
+    <!--
+      This script loads the Tailwind CSS framework from a CDN.
+      It provides a set of utility classes to easily style the website.
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /*
+        We're using the 'Inter' font for a clean, modern look.
+        It's a popular choice for web design.
+      */
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+</head>
+<body class="bg-slate-50 flex items-center justify-center min-h-screen p-4">
+
+  <!-- Main container for the website content. -->
+  <div class="w-full max-w-2xl bg-white shadow-xl rounded-2xl p-8 md:p-12 text-center">
+
+    <!-- Website Header -->
+    <header class="mb-8 md:mb-12">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+        Welcome to your <span class="text-indigo-600">Simple Website!</span>
+      </h1>
+      <p class="mt-4 text-lg text-gray-500">
+        This is a dummy homepage to show you a basic, responsive layout.
+      </p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="space-y-6">
+      <p class="text-base text-gray-700 leading-relaxed">
+        You can easily modify this content to fit your needs. The design is built with Tailwind CSS, which means you can change the look and feel by simply adjusting the utility classes. This layout is centered on the page and adapts automatically to different screen sizes.
+      </p>
+
+      <!-- Placeholder image with rounded corners -->
+      <div class="overflow-hidden rounded-xl shadow-md">
+        <img src="https://placehold.co/1200x600/6366f1/ffffff?text=Your+Content+Here" alt="Placeholder" class="w-full h-auto object-cover">
+      </div>
+
+      <p class="text-base text-gray-700 leading-relaxed">
+        Feel free to add more sections, links, and functionality. This is a great starting point for building a more complex site!
+      </p>
+
+    </main>
+
+    <!-- Call to action button -->
+    <div class="mt-8">
+      <a href="#" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-colors duration-300 transform hover:scale-105">
+        Get Started
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
